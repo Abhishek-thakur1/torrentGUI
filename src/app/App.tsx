@@ -1,8 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+import Home from './pages/home'
+import GlobalStyle from './globalStyle'
 
 const App: React.FC = () => {
   return (
-    <div>: React.FC</div>
+    <Fragment>
+      <GlobalStyle />
+      <Home />
+    </Fragment>
   )
 }
 
